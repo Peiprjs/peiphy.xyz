@@ -10,8 +10,44 @@
   top: 0;
   width: 1440px;
   height: 1024px;
+  align-items: flex-start;
+  background-color: #2c2f33;
+  overflow: hidden;
+}
+.moon {
+  position: absolute;
+  left: 62px;
+  top: 55px;
+  width: 202.049px;
+  height: 209.91px;
+  overflow: visible;
 }
 .icon {
   width: 100%;
   height: 100%;
+}
+.stars {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1440px;
+  height: 1025px;
+  overflow: visible;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
+.myNewPersonalWebsiteIsComingSo {
+  color: #fff;
+  font-size: 100px;
+  font-family: Libre Barcode 128 Text, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    'Noto Sans', 'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 303px;
+  width: 1292px;
+  height: 185px;
+  flex-direction: column;
+  transform: translateX(-50%);
 }
