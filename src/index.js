@@ -3,15 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import cn from 'classnames';
+import styles from './Frontpage.module.scss';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+function Frontpage(props) {
+  return (
+    <div
+      className={cn(styles.root, 'frontpage')}
+      style={{ '--src': `url(${require('assets/2e2b869a097e07a376cd4a9b3aab5b8e.png')})` }}
+    />
+  );
+}
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+export default Frontpage;
+
