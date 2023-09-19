@@ -2,7 +2,7 @@ import { memo, SVGProps } from 'react';
 
 const DesktopTemplateIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg preserveAspectRatio='none' viewBox='0 0 1440 1024' fill='none' xmlns='http://www.w3.org/2000/svg' {...props}>
-    <g clipPath='url(#clip0_7_2954)'>
+    <g clipPath='url(#clip0_9_5906)'>
       <rect width={1440} height={1024} fill='#2C2F33' />
       <path
         fillRule='evenodd'
@@ -14757,7 +14757,7 @@ const DesktopTemplateIcon = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id='clip0_7_2954'>
+      <clipPath id='clip0_9_5906'>
         <rect width={1440} height={1024} fill='white' />
       </clipPath>
     </defs>

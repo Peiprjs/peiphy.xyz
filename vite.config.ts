@@ -5,4 +5,5 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   server: { watch: { awaitWriteFinish: true } },
   plugins: [react()],
+  build: { chunkSizeWarningLimit: 1600, },
 });
